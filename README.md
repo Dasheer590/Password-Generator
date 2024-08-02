@@ -64,7 +64,7 @@ To use the password generator script, follow these instructions:
 ### Basic Command
 
     ```sh
-    ./password_generator.sh
+        ./password_generator.sh
 This will run the script with default settings.
 
 ## Command-Line Options
