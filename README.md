@@ -63,8 +63,8 @@ To use the password generator script, follow these instructions:
 
 ### Basic Command
 
-```sh
-./password_generator.sh
+    ```sh
+    ./password_generator.sh
 This will run the script with default settings.
 
 ## Command-Line Options
@@ -96,17 +96,17 @@ Display the help message.
 
 **Generate 5 passwords of length 16 and save to a file with encryption:**
 
-```sh
+    ```sh
 ./password_generator.sh -l 16 -n 5 -s -f my_passwords.txt -p "securepassphrase"
 
 **Generate 3 passwords of length 12 without saving to a file:**
 
-```sh
+    ```sh
 ./password_generator.sh -l 12 -n 3
 
 **Generate 10 passwords of length 20 and save to a file:**
 
-```sh
+    ```sh
 ./password_generator.sh -l 20 -n 10 -s -f passwords.txt
 
 # Contributing
